@@ -2,5 +2,5 @@
 
 # Recompile from scratch
 git clean -Xdf
-pdflatex document
-sha256sum document.pdf
+pdflatex empty
+sha256sum empty.pdf
