@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# Recompile from scratch
+git clean -Xdf
+pdflatex document
+sha256sum document.pdf
