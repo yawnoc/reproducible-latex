@@ -17,3 +17,10 @@ This generates the following PDFs and computes their SHA-256 sums:
 | OS | Hardware | TeX distro | pdfTeX | kpathsea | sha256sum incipit |
 | - | - | - | - | - | - |
 | Linux Debian 10 | aarch64 | texlive-full 2018.20190227-2 | 1.40.19 | 6.3.1/dev | 4a8a412 |
+
+
+## Results for `nonempty.pdf`
+
+| OS | Hardware | TeX distro | pdfTeX | kpathsea | sha256sum incipit |
+| - | - | - | - | - | - |
+| Linux Debian 10 | aarch64 | texlive-full 2018.20190227-2 | 1.40.19 | 6.3.1/dev | 8c2080f |
