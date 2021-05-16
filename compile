@@ -3,4 +3,7 @@
 # Recompile from scratch
 git clean -Xdf
 pdflatex empty
-sha256sum empty.pdf
+pdflatex nonempty
+
+# Get PDF hashes
+sha256sum *.pdf
