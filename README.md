@@ -14,15 +14,15 @@ This generates the following PDFs and computes their SHA-256 sums:
 
 ## Results for `empty.pdf`
 
-| OS | Hardware | TeX distro | pdfTeX | kpathsea | sha256sum incipit |
+| sha256sum incipit | OS | Hardware | TeX distro | pdfTeX | kpathsea |
 | - | - | - | - | - | - |
-| Android Termux 0.112 | armv7l | texlive-full 20200406-4 | 1.40.21 | 6.3.2 | 4a8a412 |
-| Linux Debian 10 | aarch64 | texlive-full 2018.20190227-2 | 1.40.19 | 6.3.1/dev | 4a8a412 |
+| 4a8a412 | Android Termux 0.112 | armv7l | texlive-full 20200406-4 | 1.40.21 | 6.3.2 |
+| 4a8a412 | Linux Debian 10 | aarch64 | texlive-full 2018.20190227-2 | 1.40.19 | 6.3.1/dev |
 
 
 ## Results for `nonempty.pdf`
 
-| OS | Hardware | TeX distro | pdfTeX | kpathsea | sha256sum incipit |
+| sha256sum incipit | OS | Hardware | TeX distro | pdfTeX | kpathsea |
 | - | - | - | - | - | - |
-| Linux Debian 10 | aarch64 | texlive-full 2018.20190227-2 | 1.40.19 | 6.3.1/dev | 8c2080f |
-| Android Termux 0.112 | armv7l | texlive-full 20200406-4 | 1.40.21 | 6.3.2 | fa2979b |
+| 8c2080f | Linux Debian 10 | aarch64 | texlive-full 2018.20190227-2 | 1.40.19 | 6.3.1/dev |
+| fa2979b | Android Termux 0.112 | armv7l | texlive-full 20200406-4 | 1.40.21 | 6.3.2 |
