@@ -4,6 +4,7 @@
 git clean -Xdf
 pdflatex empty
 pdflatex nonempty
+pdflatex quick
 
 # Get PDF hashes
 sha256sum *.pdf
