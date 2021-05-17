@@ -3,9 +3,9 @@
 An attempt at reproducible builds in LaTeX.
 
 
-## Compile
+## Generate PDFs
 
-Run the bash script `./compile`.
+Run the bash script `./makepdfs`.
 
 This generates the following PDFs,
 copies them into their respective directories,
