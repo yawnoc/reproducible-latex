@@ -15,9 +15,9 @@ This generates the following PDFs and computes their SHA-256 sums:
 
 ## Resulting sha256sum incipits
 
-`empty.pdf` appears to be reproducible.
+Only `empty.pdf` appears to be reproducible.
 
-`nonempty.pdf` appears to depend on the TeX distribution.
+The others (`nonempty.pdf` and `quick.pdf`) depend on the TeX distribution.
 
 | `empty.pdf` | `nonempty.pdf` | `quick.pdf` | OS | Hardware | TeX distro | pdfTeX | kpathsea |
 | - | - | - | - | - | - | - | - |
