@@ -1,10 +1,17 @@
 #!/usr/bin/env bash
 
-# Recompile from scratch
+# Remove ignored files
 git clean -Xdf
-pdflatex empty
-pdflatex nonempty
-pdflatex quick
 
-# Get PDF hashes
+# Compile PDFs and copy into respective directories
+for tex_file in *.tex
+do
+  pdflatex ${tex_file}
+  name=${tex_file%%.*}
+  pdf_file="${name}.pdf"
+  hash_incipit=$(sha256sum $pdf_file | cut --characters=1-7)
+  cp $pdf_file "${name}/${hash_incipit}.pdf"
+done
+
+# Print PDF hashes at the end
 sha256sum *.pdf

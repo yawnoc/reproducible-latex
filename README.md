@@ -7,7 +7,9 @@ An attempt at reproducible builds in LaTeX.
 
 Run the bash script `./compile`.
 
-This generates the following PDFs and computes their SHA-256 sums:
+This generates the following PDFs,
+copies them into their respective directories,
+and computes their SHA-256 sums:
 - `empty.pdf` (an empty A4 page)
 - `nonempty.pdf` (a page-numbered but otherwise empty A4 page)
 - `quick.pdf` (the quick brown fox jumps over the lazy dog)
