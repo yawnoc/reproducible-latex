@@ -13,7 +13,13 @@ do
     for ((j = i + 1; j < $file_count; j++)); do
       file_j=${file_array[j]}
       name_j=${file_j%%.*}
-      diff --unified --text -- $file_i $file_j > "${name_i}-${name_j}.diff"
+      diff \
+        --unified \
+        --text \
+        --label $file_i \
+        --label $file_j \
+        -- $file_i $file_j \
+        > "${name_i}-${name_j}.diff"
     done
   done
   cd ../
