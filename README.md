@@ -14,6 +14,10 @@ This generates the following PDFs and computes their SHA-256 sums:
 
 ## Resulting sha256sum incipits
 
+`empty.pdf` appears to be reproducible.
+
+`nonempty.pdf` appears to depend on the TeX distribution.
+
 | `empty.pdf` | `nonempty.pdf` | OS | Hardware | TeX distro | pdfTeX | kpathsea |
 | - | - | - | - | - | - | - |
 | 4a8a412 | 8addf1c | Arch 5 | x86_64 | texlive-core 2020.57066-2 | 1.40.21 | 6.3.2 |
