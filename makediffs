@@ -18,7 +18,7 @@ do
         --text \
         --label $file_i \
         --label $file_j \
-        -- $file_i $file_j \
+        $file_i $file_j \
         > "${name_i}-${name_j}.diff"
     done
   done
