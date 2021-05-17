@@ -15,6 +15,11 @@ and computes their SHA-256 sums:
 - `quick.pdf` (the quick brown fox jumps over the lazy dog)
 
 
+## Generate pairwise diffs
+
+Run the bash script `./makediffs`.
+
+
 ## Resulting sha256sum incipits
 
 Only `empty.pdf` appears to be reproducible.
