@@ -29,39 +29,6 @@ For Tex Live, there are 3 cliques in terms of reproducibility so far:
 
 <table>
   <tr>
-    <th colspan="8">2020 Linux</th>
-  </tr>
-  <tr>
-    <th><code>empty.pdf</code></th>
-    <th><code>nonempty.pdf</code></th>
-    <th><code>quick.pdf</code></th>
-    <th>OS</th>
-    <th>Hardware</th>
-    <th>TeX distro</th>
-    <th>pdfTeX</th>
-    <th>kpathsea</th>
-  </tr>
-  <tr>
-    <td>4a8a412</td>
-    <td>8addf1c</td>
-    <td>0189e0b</td>
-    <td>Arch 5</td>
-    <td>x86_64</td>
-    <td>texlive-core 2020.57066-2 + texlive-latexextra 2020.57067-1</td>
-    <td>1.40.21</td>
-    <td>6.3.2</td>
-  </tr>
-  <tr>
-    <td>4a8a412</td>
-    <td>8addf1c</td>
-    <td>0189e0b</td>
-    <td>Debian 11</td>
-    <td>x86_64</td>
-    <td>texlive-full 2020.20210202-3</td>
-    <td>1.40.21</td>
-    <td>6.3.2</td>
-  </tr>
-  <tr>
     <th colspan="8">2019 Debian</th>
   </tr>
   <tr>
@@ -93,6 +60,39 @@ For Tex Live, there are 3 cliques in terms of reproducibility so far:
     <td>texlive-full 2018.20190227-2</td>
     <td>1.40.19</td>
     <td>6.3.1/dev</td>
+  </tr>
+  <tr>
+    <th colspan="8">2020 Linux</th>
+  </tr>
+  <tr>
+    <th><code>empty.pdf</code></th>
+    <th><code>nonempty.pdf</code></th>
+    <th><code>quick.pdf</code></th>
+    <th>OS</th>
+    <th>Hardware</th>
+    <th>TeX distro</th>
+    <th>pdfTeX</th>
+    <th>kpathsea</th>
+  </tr>
+  <tr>
+    <td>4a8a412</td>
+    <td>8addf1c</td>
+    <td>0189e0b</td>
+    <td>Arch 5</td>
+    <td>x86_64</td>
+    <td>texlive-core 2020.57066-2 + texlive-latexextra 2020.57067-1</td>
+    <td>1.40.21</td>
+    <td>6.3.2</td>
+  </tr>
+  <tr>
+    <td>4a8a412</td>
+    <td>8addf1c</td>
+    <td>0189e0b</td>
+    <td>Debian 11</td>
+    <td>x86_64</td>
+    <td>texlive-full 2020.20210202-3</td>
+    <td>1.40.21</td>
+    <td>6.3.2</td>
   </tr>
   <tr>
     <th colspan="8">2020 Not Linux</th>
