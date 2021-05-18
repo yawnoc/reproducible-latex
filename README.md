@@ -25,7 +25,7 @@ Run the bash script `./makediffs`.
 Only `empty.pdf` appears to be reproducible.
 
 The others (`nonempty.pdf` and `quick.pdf`) depend on the TeX distribution.
-For Tex Live, there are 3 cliques in terms of reproducibility so far:
+For TeX Live, there are 3 cliques in terms of reproducibility so far:
 
 <table>
   <tr>
