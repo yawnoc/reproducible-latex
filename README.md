@@ -25,8 +25,12 @@ Run the bash script `./makediffs`.
 Only `empty.pdf` appears to be reproducible.
 
 The others (`nonempty.pdf` and `quick.pdf`) depend on the TeX distribution.
+For Tex Live, there are 3 cliques in terms of reproducibility so far:
 
 <table>
+  <tr>
+    <th colspan="8">2020 Linux</th>
+  </tr>
   <tr>
     <th><code>empty.pdf</code></th>
     <th><code>nonempty.pdf</code></th>
@@ -58,6 +62,9 @@ The others (`nonempty.pdf` and `quick.pdf`) depend on the TeX distribution.
     <td>6.3.2</td>
   </tr>
   <tr>
+    <th colspan="8">2019 Debian</th>
+  </tr>
+  <tr>
     <th><code>empty.pdf</code></th>
     <th><code>nonempty.pdf</code></th>
     <th><code>quick.pdf</code></th>
@@ -86,6 +93,9 @@ The others (`nonempty.pdf` and `quick.pdf`) depend on the TeX distribution.
     <td>texlive-full 2018.20190227-2</td>
     <td>1.40.19</td>
     <td>6.3.1/dev</td>
+  </tr>
+  <tr>
+    <th colspan="8">2020 Not Linux</th>
   </tr>
   <tr>
     <th><code>empty.pdf</code></th>
