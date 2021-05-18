@@ -27,7 +27,6 @@ Only `empty.pdf` appears to be reproducible.
 The others (`nonempty.pdf` and `quick.pdf`) depend on the TeX distribution.
 
 <table>
-<thead>
 <tr>
 <th><code>empty.pdf</code></th>
 <th><code>nonempty.pdf</code></th>
@@ -38,8 +37,6 @@ The others (`nonempty.pdf` and `quick.pdf`) depend on the TeX distribution.
 <th>pdfTeX</th>
 <th>kpathsea</th>
 </tr>
-</thead>
-<tbody>
 <tr>
 <td>4a8a412</td>
 <td>8addf1c</td>
@@ -100,5 +97,4 @@ The others (`nonempty.pdf` and `quick.pdf`) depend on the TeX distribution.
 <td>1.40.21</td>
 <td>6.3.2</td>
 </tr>
-</tbody>
 </table>
