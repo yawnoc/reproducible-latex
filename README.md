@@ -58,6 +58,16 @@ The others (`nonempty.pdf` and `quick.pdf`) depend on the TeX distribution.
     <td>6.3.2</td>
   </tr>
   <tr>
+    <th><code>empty.pdf</code></th>
+    <th><code>nonempty.pdf</code></th>
+    <th><code>quick.pdf</code></th>
+    <th>OS</th>
+    <th>Hardware</th>
+    <th>TeX distro</th>
+    <th>pdfTeX</th>
+    <th>kpathsea</th>
+  </tr>
+  <tr>
     <td>4a8a412</td>
     <td>8c2080f</td>
     <td>b7f7702</td>
@@ -76,6 +86,16 @@ The others (`nonempty.pdf` and `quick.pdf`) depend on the TeX distribution.
     <td>texlive-full 2018.20190227-2</td>
     <td>1.40.19</td>
     <td>6.3.1/dev</td>
+  </tr>
+  <tr>
+    <th><code>empty.pdf</code></th>
+    <th><code>nonempty.pdf</code></th>
+    <th><code>quick.pdf</code></th>
+    <th>OS</th>
+    <th>Hardware</th>
+    <th>TeX distro</th>
+    <th>pdfTeX</th>
+    <th>kpathsea</th>
   </tr>
   <tr>
     <td>4a8a412</td>
