@@ -26,11 +26,79 @@ Only `empty.pdf` appears to be reproducible.
 
 The others (`nonempty.pdf` and `quick.pdf`) depend on the TeX distribution.
 
-| `empty.pdf` | `nonempty.pdf` | `quick.pdf` | OS | Hardware | TeX distro | pdfTeX | kpathsea |
-| - | - | - | - | - | - | - | - |
-| 4a8a412 | 8addf1c | 0189e0b | Arch 5 | x86_64 | texlive-core 2020.57066-2 + texlive-latexextra 2020.57067-1 | 1.40.21 | 6.3.2 |
-| 4a8a412 | 8addf1c | 0189e0b | Debian 11 | x86_64 | texlive-full 2020.20210202-3 | 1.40.21 | 6.3.2 |
-| 4a8a412 | 8c2080f | b7f7702 | Debian 10 | aarch64 | texlive-full 2018.20190227-2 | 1.40.19 | 6.3.1/dev |
-| 4a8a412 | 8c2080f | b7f7702 | Debian 10 | x86_64 | texlive-full 2018.20190227-2 | 1.40.19 | 6.3.1/dev |
-| 4a8a412 | fa2979b | 7917bca | Termux 0.112 | armv7l | texlive-full 20200406-4 | 1.40.21 | 6.3.2 |
-| 4a8a412 | fa2979b | 7917bca | Windows 10 | x86_64 | TeX Live 2020/W32TeX | 1.40.21 | 6.3.2 |
+<table>
+<thead>
+<tr>
+<th><code>empty.pdf</code></th>
+<th><code>nonempty.pdf</code></th>
+<th><code>quick.pdf</code></th>
+<th>OS</th>
+<th>Hardware</th>
+<th>TeX distro</th>
+<th>pdfTeX</th>
+<th>kpathsea</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4a8a412</td>
+<td>8addf1c</td>
+<td>0189e0b</td>
+<td>Arch 5</td>
+<td>x86_64</td>
+<td>texlive-core 2020.57066-2 + texlive-latexextra 2020.57067-1</td>
+<td>1.40.21</td>
+<td>6.3.2</td>
+</tr>
+<tr>
+<td>4a8a412</td>
+<td>8addf1c</td>
+<td>0189e0b</td>
+<td>Debian 11</td>
+<td>x86_64</td>
+<td>texlive-full 2020.20210202-3</td>
+<td>1.40.21</td>
+<td>6.3.2</td>
+</tr>
+<tr>
+<td>4a8a412</td>
+<td>8c2080f</td>
+<td>b7f7702</td>
+<td>Debian 10</td>
+<td>aarch64</td>
+<td>texlive-full 2018.20190227-2</td>
+<td>1.40.19</td>
+<td>6.3.1/dev</td>
+</tr>
+<tr>
+<td>4a8a412</td>
+<td>8c2080f</td>
+<td>b7f7702</td>
+<td>Debian 10</td>
+<td>x86_64</td>
+<td>texlive-full 2018.20190227-2</td>
+<td>1.40.19</td>
+<td>6.3.1/dev</td>
+</tr>
+<tr>
+<td>4a8a412</td>
+<td>fa2979b</td>
+<td>7917bca</td>
+<td>Termux 0.112</td>
+<td>armv7l</td>
+<td>texlive-full 20200406-4</td>
+<td>1.40.21</td>
+<td>6.3.2</td>
+</tr>
+<tr>
+<td>4a8a412</td>
+<td>fa2979b</td>
+<td>7917bca</td>
+<td>Windows 10</td>
+<td>x86_64</td>
+<td>TeX Live 2020/W32TeX</td>
+<td>1.40.21</td>
+<td>6.3.2</td>
+</tr>
+</tbody>
+</table>
