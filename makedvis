@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+# Remove ignored files
+git clean -Xdf
+
+# Compile DVIs and copy into respective directories
+for tex_file in *.tex
+do
+  latex ${tex_file}
+  name=${tex_file%%.*}
+  dvi_file="${name}.dvi"
+  hash_incipit=$(sha256sum $dvi_file | cut --characters=1-7)
+  mkdir -p "${name}/"
+  cp $dvi_file "${name}/${hash_incipit}.dvi"
+done
+
+# Print DVI hashes at the end
+sha256sum *.dvi
