@@ -111,6 +111,16 @@ For TeX Live, there are 3 cliques in terms of reproducibility so far:
     <td>4a8a412</td>
     <td>fa2979b</td>
     <td>7917bca</td>
+    <td>macOS 10.15</td>
+    <td>x86_64</td>
+    <td>TeX Live 2020</td>
+    <td>1.40.21</td>
+    <td>6.3.2</td>
+  </tr>
+  <tr>
+    <td>4a8a412</td>
+    <td>fa2979b</td>
+    <td>7917bca</td>
     <td>Termux 0.112</td>
     <td>armv7l</td>
     <td>texlive-full 20200406-4</td>
